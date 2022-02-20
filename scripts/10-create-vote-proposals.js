@@ -13,7 +13,7 @@ const tokenModule = sdk.getTokenModule(
 
 (async () => {
   try {
-    const amount = 42;
+    const amount = 420;
     await voteModule.propose(
       "Should the DAO mint an additional " + amount + " tokens into the treasury?",
       [
@@ -44,7 +44,7 @@ const tokenModule = sdk.getTokenModule(
   }
 
   try {
-    const amount = 42_000;
+    const amount = 4;
     // Create proposal to transfer ourselves 6,900 tokens for being awesome.
     await voteModule.propose(
       "Should the DAO transfer " +
